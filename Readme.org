@@ -1,0 +1,26 @@
+* キーボードレイアウトお試し用 CAD モデル
+
+パラメータをいじるだけで簡単にいろいろなレイアウトのキーボードが生成さ
+れる OpenSCAD 用 3D モデルです。
+
+** 例
+
+- 4x6 格子配列 + 2 (Helix)
+
+[[file:images/01_ortho_helix.png]]
+
+- 3x6 + 親指キー columnar staggered
+
+[[file:images/02_columnar_staggered.png]]
+
+- 同 row staggered
+
+[[file:images/03_row_staggered.png]]
+
+- 同 symmetric staggered
+
+[[file:images/04_symmetric_staggered.png]]
+
+- 同 TRON 風配列
+
+[[file:images/05_like_tron.png]]
