@@ -77,6 +77,9 @@ KEY_TOP_SIZE = 15.000;
 // キーキャップの高さ (mm)
 KEY_TOP_HEIGHT = 2;
 
+// 左右キーボード間の距離 (mm)
+KEYBOARD_DISTANCE = 280;
+
 // ---- keycap
 
 module keycap_internal (size = 1) {
@@ -144,4 +147,4 @@ module keyboard (right = false, from = 0) {
 //-----
 
 keyboard();
-translate([320, 0, 0]) keyboard(true);
+translate([KEYBOARD_DISTANCE, 0, 0]) keyboard(true);
